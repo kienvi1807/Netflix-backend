@@ -1,0 +1,21 @@
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "vi3",
+    "email": "vi3@gmail.com",
+    "password": "vi3"
+}
+
+###
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "kien2899",
+    "password": "kien2899"
+}
+
+###
+GET http://localhost:5000/api/users/
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2M2E5NTRlOTlhYjcxN2NmYjEwN2JmZGEiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE2NzIwNDM0MzN9.qdf0XMdDclxgL7xt7HNIMavIXSvetdlGf4_VHB0wd_k
